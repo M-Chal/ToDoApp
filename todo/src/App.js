@@ -1,10 +1,17 @@
 
 import './App.css';
 
+//Importing Components
+
+import Form from "./components/form";
+
 function App() {
   return (
     <div className="App">
-      <h1>TO-DO App</h1>
+      <header>
+        <h1>To-Do List</h1>
+      </header>
+      <Form />
     </div>
   );
 }
